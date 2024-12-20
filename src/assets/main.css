@@ -1,35 +1,39 @@
-@import './base.css';
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply text-text opacity-50 text-lg font-medium hover:opacity-100 duration-300;
+    }
+    .my-container {
+        @apply p-2 sm:px-10 md:px-16 lg:px-20 xl:px-24 2xl:px-32;
+    }
+    .section-title {
+        @apply font-bold text-3xl text-text leading-[60px];
+    }
+    .skill-card {
+        @apply flex flex-col justify-center items-center bg-transparent text-text hover:bg-primary hover:text-white p-4 duration-300 h-[400px] text-center;
+    }
+    .but-active {
+        @apply;
+    }
+    .collapse-title {
+        @apply text-xl lg:text-xl font-semibold;
+    }
+
+    .collapse-content {
+        @apply text-[18px] leading-[27px] font-normal;
+    }
+    .my-badge {
+        @apply text-base font-semibold text-white p-[10px] bg-primary rounded-none;
+    }
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+body {
+    overflow-x: hidden;
+    font-family: "Urbanist", sans-serif;
 }
