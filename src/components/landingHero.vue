@@ -30,13 +30,13 @@ defineProps({
             <img :src="effectLeft" alt="" class="absolute left-0 h-full" />
             <img :src="effectRight" alt="" class="absolute right-0 h-full" />
             <div class="flex gap-6 mt-8 items-center">
-                <div class="devider-horizon"></div>
+                <div class="devider-horizon hidden md:block"></div>
                 <div class="flex items-center gap-4">
                     <a class="fa-brands fa-instagram icon-hero" href="https://www.instagram.com/dhios.ntz/" target="_blank"></a>
                     <a class="fa-brands fa-github icon-hero" href="https://github.com/St4rkXc" target="_blank"></a>
                     <a class="fa-brands fa-linkedin-in icon-hero" href="https://www.linkedin.com/in/dhiyo-wikantara-3172672ab/" target="_blank"></a>
                 </div>
-                <div class="devider-horizon"></div>
+                <div class="devider-horizon hidden md:block"></div>
             </div>
         </header>
 </template>

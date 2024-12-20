@@ -5,6 +5,7 @@ import landingAbout from "@/components/landingAbout.vue";
 import landingSkills from "@/components/landingSkills.vue";
 import LandingExperience from "@/components/landingExperience.vue";
 import landingProjects from "@/components/landingProjects.vue";
+import landingFooter from "@/components/landingFooter.vue";
 
 </script>
 <template>
@@ -14,4 +15,5 @@ import landingProjects from "@/components/landingProjects.vue";
 	<landingSkills />
 	<LandingExperience />
 	<landingProjects />
+	<landingFooter />
 </template>

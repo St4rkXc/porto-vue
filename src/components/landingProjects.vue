@@ -12,7 +12,7 @@ import packageProject from '@/assets/images/package-thumn.png';
             >My Projects & <br />
             <span class="text-secondary">Works</span></p
         >
-        <div class="grid grid-cols-3 mt-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-16">
             <projectsCompo 
                 :projectImg=protoProject
                 projectTitle="16 UI Prototyping Project"
