@@ -1,5 +1,5 @@
 <script setup>
-import projectsCompo from './projectsCompo.vue';
+import projectsCompo from '@/components/projectsCompo.vue';
 import protoProject from '@/assets/images/proto-thumb.png';
 import uiProject from '@/assets/images/ui-thumb.png';
 import miraProject from '@/assets/images/mira-thumb.png';
@@ -22,11 +22,13 @@ import packageProject from '@/assets/images/package-thumn.png';
                 :projectImg=uiProject
                 projectTitle="28 UI Projects"
                 :badges="['Figma', 'illustrator']"
+                links="/Projects/UiProject"
             />
             <projectsCompo 
                 :projectImg=miraProject
                 projectTitle="Mira Project Study Case"
                 :badges="['Figma', 'Miro']"
+                links="/Projects/MiraProject"
             />
             <projectsCompo 
                 :projectImg=lmsProject

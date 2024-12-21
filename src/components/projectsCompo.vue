@@ -1,5 +1,6 @@
-<script setup>
+a<script setup>
 import { defineProps } from "vue";
+import { RouterLink } from "vue-router";
 
 defineProps({
     projectImg: {
@@ -10,17 +11,17 @@ defineProps({
     },
     badges: {
         type: Array,
-        default: () => []
+        default: () => [],
     },
     links:{
         type: String,
-        Required: true
+        Required: true,
     }
 });
 </script>
 
 <template>
-    <a class="block p-4 duration-300 text-text hover:text-white hover:bg-primary hover:scale-105 group active:scale-95" :href="links">
+    <RouterLink class="block p-4 duration-300 text-text hover:text-white hover:bg-primary hover:scale-105 group active:scale-95" :to="links" >
         <img :src="projectImg" alt="" />
         <div class="mt-8 space-y-4">
             <p class="text-2xl font-bold">{{ projectTitle }}</p>
@@ -30,5 +31,5 @@ defineProps({
                 </div>
             </div>
         </div>
-    </a>
+    </RouterLink>
 </template>
