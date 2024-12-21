@@ -17,6 +17,7 @@ import packageProject from '@/assets/images/package-thumn.png';
                 :projectImg=protoProject
                 projectTitle="16 UI Prototyping Project"
                 :badges="['Figma', 'Illustrator']"
+                links="/Projects/ProtoProject"
             />
             <projectsCompo 
                 :projectImg=uiProject
@@ -34,11 +35,13 @@ import packageProject from '@/assets/images/package-thumn.png';
                 :projectImg=lmsProject
                 projectTitle="LMS Project (Frontend)"
                 :badges="['Tailwind', 'Blade', 'DaisyUI']"
+                links="/Projects/LmsProject"
             />
             <projectsCompo 
                 :projectImg=packageProject
                 projectTitle="Package Tracking System"
                 :badges="['Tailwind', 'Blade', 'DaisyUI']"
+                links="/Projects/PackageProject"
             />
             <projectsCompo 
                 :projectImg=protoProject

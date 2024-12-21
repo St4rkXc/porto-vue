@@ -2,7 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import miraProjectView from "@/views/projects/miraProjectView.vue";
 import uiProjectView from "@/views/projects/uiProjectView.vue";
-
+import lmsProjectView from "@/views/projects/lmsProjectView.vue";
+import packageProjectView from "@/views/projects/packageProjectView.vue";
+import protoProjectView from "@/views/projects/protoProjectView.vue";
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
@@ -21,6 +23,21 @@ const router = createRouter({
             name: "UiProject",
             component: uiProjectView,
         },
+        {
+            path: "/Projects/LmsProject",
+            name: "LmsProject",
+            component: lmsProjectView,
+        },
+        {
+            path : "/Projects/PackageProject",
+            name : "PackageProject",
+            component : packageProjectView,
+        },
+        {
+            path : "/Projects/ProtoProject",
+            name : "ProtoProject",
+            component : protoProjectView,
+        }
     ],
 });
 
