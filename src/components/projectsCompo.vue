@@ -21,7 +21,7 @@ defineProps({
 </script>
 
 <template>
-    <RouterLink class="block p-4 duration-300 text-text hover:text-white hover:bg-primary hover:scale-105 group active:scale-95" :to="links" >
+    <RouterLink class="block p-4 duration-300 text-text hover:text-white hover:bg-primary hover:scale-105 group active:scale-95 border border-primary/60" :to="links" >
         <img :src="projectImg" alt="" />
         <div class="mt-8 space-y-4">
             <p class="text-2xl font-bold">{{ projectTitle }}</p>
