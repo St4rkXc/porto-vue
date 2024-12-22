@@ -28,7 +28,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="py-[200px] my-container">
+    <div class="py-[100px] my-container">
         <img :src="projectImg" alt="Project Image" />
         <div class="mt-12 px-28">
             <div class="flex justify-between">
