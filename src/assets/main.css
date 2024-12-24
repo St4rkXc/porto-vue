@@ -33,20 +33,19 @@
     .devider-horizon {
         @apply w-[100px] h-[1px] bg-primary/40;
     }
-    .icon-hero{
-        @apply border text-lg text-primary border-primary p-3 rounded-full hover:bg-primary bg-transparent hover:text-white duration-200
+    .icon-hero {
+        @apply border text-lg text-primary border-primary p-3 rounded-full hover:bg-primary bg-transparent hover:text-white duration-200;
     }
     .icon-foot {
         @apply border text-lg text-white border-white p-3 rounded-full hover:bg-white bg-primary hover:text-primary duration-200;
     }
 }
 
-
 body {
     overflow-x: hidden;
     font-family: "Urbanist", sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }

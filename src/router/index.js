@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import HomeView from "@/views/HomeView.vue";
+import ProjectView from "@/views/projectView.vue";
+// * Project View
 import miraProjectView from "@/views/projects/miraProjectView.vue";
 import uiProjectView from "@/views/projects/uiProjectView.vue";
 import lmsProjectView from "@/views/projects/lmsProjectView.vue";

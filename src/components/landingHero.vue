@@ -17,8 +17,8 @@ defineProps({
 })
 </script>
 
-<template>
-    <header class="relative flex flex-col items-center justify-center w-full min-h-screen">
+<template >
+    <header class="relative flex flex-col items-center justify-center w-full min-h-screen" data-aos="fade-down" data-aos-duration="1500">
             <h1 class="text-3xl lg:text-4xl font-bold text-center text-primary leading-tight lg:leading-[100px]">
                 {{ title }} <br />
             </h1>

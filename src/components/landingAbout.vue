@@ -23,11 +23,11 @@ defineProps({
 
 <template>
     <section class="pt-[200px] pb-[100px] my-container" id="company">
-        <h2 class="text-center section-title">
+        <h2 class="text-center section-title" data-aos="fade" data-aos-duration="1500">
             About <br />
             <span class="text-secondary">Dhiyo Wikantara</span>
         </h2>
-        <div class="flex flex-col lg:flex-row mt-16">
+        <div class="flex flex-col lg:flex-row mt-16" data-aos="fade-left" data-aos-duration="1500">
             <!-- Bind active classes dynamically -->
             <p
                 :class="['flex-1 py-6 text-lg font-semibold text-center border-b-2 cursor-pointer text-text', activeTab === 'content1' ? 'border-b-primary' : 'border-b-primary/30']"
@@ -48,7 +48,7 @@ defineProps({
                 School
             </p>
         </div>
-        <div class="mt-16">
+        <div class="mt-16" data-aos="fade-right" data-aos-duration="1500">
             <!-- Conditional rendering for each tab -->
             <div v-show="activeTab === 'content1'" class="flex flex-col xl:flex-row gap-8">
                 <img :src="atrem" alt="Atrem" />
