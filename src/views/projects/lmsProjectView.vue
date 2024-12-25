@@ -1,6 +1,6 @@
 <script setup>
 import projectDetail from '@/components/Projects/projectDetail.vue';
-import projectNavbar from '@/components/Projects/projectNavbar.vue';
+import projectNavbar from '@/components/Navbar/projectNavbar.vue';
 import lmsImg from '@/assets/images/lms-thumb2.png';
 </script>
 <template>

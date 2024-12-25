@@ -1,5 +1,5 @@
 <script setup>
-import projectNavbar from '@/components/Projects/projectNavbar.vue';
+import projectNavbar from '@/components/Navbar/projectNavbar.vue';
 import projectDetail from '@/components/Projects/projectDetail.vue';
 import packageImg from '@/assets/images/packagae-fix.png';
 </script>

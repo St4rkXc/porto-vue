@@ -1,5 +1,5 @@
 <script setup>
-import projectNavbar from "@/components/Projects/projectNavbar.vue";
+import projectNavbar from "@/components/Navbar/projectNavbar.vue";
 import landingFooter from "@/components/Landing/landingFooter.vue";
 import projectsSpecific from "@/components/Projects/projectsSpecific.vue";
 import miraThumb from "@/assets/images/mira-thumb.png";

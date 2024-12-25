@@ -1,6 +1,6 @@
 <script setup>
 import projectDetail from '@/components/Projects/projectDetail.vue';
-import projectNavbar from '@/components/Projects/projectNavbar.vue';
+import projectNavbar from '@/components/Navbar/projectNavbar.vue';
 import portoImg from '@/assets/images/protofix.png';
 </script>
 <template>
