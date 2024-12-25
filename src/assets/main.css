@@ -39,6 +39,9 @@
     .icon-foot {
         @apply border text-lg text-white border-white p-3 rounded-full hover:bg-white bg-primary hover:text-primary duration-200;
     }
+    .my-button-primary{
+        @apply px-4 py-3 border bg-primary text-white text-base hover:scale-105 duration-300;
+    }
 }
 
 body {

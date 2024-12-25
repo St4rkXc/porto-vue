@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from "vue";
 import { RouterLink } from "vue-router";
-
+import landingFooter from "@/components/Landing/landingFooter.vue";
 
 defineProps({
     projectTitle: {
@@ -49,4 +49,5 @@ defineProps({
             </div>
         </div>
     </div>
+    <landingFooter />
 </template>

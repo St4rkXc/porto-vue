@@ -1,11 +1,11 @@
 <script setup>
-import landingNavbar from "@/components/landingNavbar.vue";
-import landingHero from "@/components/landingHero.vue";
-import landingAbout from "@/components/landingAbout.vue";
-import landingSkills from "@/components/landingSkills.vue";
-import LandingExperience from "@/components/landingExperience.vue";
-import landingProjects from "@/components/landingProjects.vue";
-import landingFooter from "@/components/landingFooter.vue";
+import landingNavbar from "@/components/Navbar/landingNavbar.vue";
+import landingHero from "@/components/Landing/landingHero.vue";
+import landingAbout from "@/components/Landing/landingAbout.vue";
+import landingSkills from "@/components/Landing/landingSkills.vue";
+import LandingExperience from "@/components/Landing/landingExperience.vue";
+import landingProjects from "@/components/Landing/landingProjects.vue";
+import landingFooter from "@/components/Landing/landingFooter.vue";
 
 </script>
 <template>

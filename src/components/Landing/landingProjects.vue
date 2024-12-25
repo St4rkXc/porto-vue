@@ -1,5 +1,6 @@
 <script setup>
-import projectsCompo from '@/components/projectsCompo.vue';
+import { RouterLink } from 'vue-router';
+import projectsCompo from '@/components/Projects/projectsCompo.vue';
 import protoProject from '@/assets/images/proto-thumb.png';
 import uiProject from '@/assets/images/ui-thumb.png';
 import miraProject from '@/assets/images/mira-thumb.png';
@@ -60,6 +61,11 @@ import packageProject from '@/assets/images/package-thumn.png';
                     :badges="['Figma', 'Miro']"
                 />
             </div>
+        </div>
+        <div class="mt-16 flex items-center justify-center">
+            <RouterLink to="/Projects" class="my-button-primary">
+                View All Projects
+            </RouterLink>
         </div>
     </section>
 </template>

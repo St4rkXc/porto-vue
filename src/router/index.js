@@ -16,6 +16,11 @@ const router = createRouter({
             component: HomeView,
         },
         {
+            path: "/Projects",
+            name: "Projects",
+            component: ProjectView,
+        },
+        {
             path: "/Projects/MiraProject",
             name: "MiraProject",
             component: miraProjectView,

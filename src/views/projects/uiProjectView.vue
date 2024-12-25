@@ -1,6 +1,6 @@
 <script setup>
-import projectDetail from '@/components/projectDetail.vue';
-import projectNavbar from '@/components/projectNavbar.vue';
+import projectDetail from '@/components/Projects/projectDetail.vue';
+import projectNavbar from '@/components/Projects/projectNavbar.vue';
 import uiImg from '@/assets/images/uifix.png';
 </script>
 

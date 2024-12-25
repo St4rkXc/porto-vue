@@ -1,7 +1,7 @@
 <script setup>
-import projectDetail from "@/components/projectDetail.vue";
+import projectDetail from "@/components/Projects/projectDetail.vue";
 import miraImg from "@/assets/images/mirafix.png";
-import projectNavbar from "@/components/projectNavbar.vue";
+import projectNavbar from "@/components/Projects/projectNavbar.vue";
 
 </script>
 
