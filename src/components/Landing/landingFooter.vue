@@ -1,13 +1,18 @@
-<script>
+<script setup>
 import footerIng from "@/assets/images/CTA.png";
+import { defineProps } from "vue";
+
+defineProps({
+    titlen: {
+        type: String,
+        default: "Thank you <br /> for Scrolling",
+    },
+});
 </script>
 
 <template>
     <footer class="mt-[200px] flex flex-col items-center justify-center h-[800px] my-footer">
-        <p class="text-3xl xl:text-4xl 2xl:text-[128px] font-bold text-white leading-tight xl:leading-[120px] text-center"
-            >Thank You, <br />
-            For Scrolling</p
-        >
+        <p class="text-3xl xl:text-4xl 2xl:text-[128px] font-bold text-white leading-tight xl:leading-[120px] text-center" v-html="titlen"></p>
         <div class="flex gap-6 mt-8 items-center">
             <div class="devider-horizon bg-white/50 hidden md:block"></div>
             <div class="flex items-center gap-4">
