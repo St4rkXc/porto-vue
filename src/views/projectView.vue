@@ -3,6 +3,7 @@ import projectNavbar from "@/components/Navbar/projectNavbar.vue";
 import landingFooter from "@/components/Landing/landingFooter.vue";
 import projectsSpecific from "@/components/Projects/projectsSpecific.vue";
 import miraThumb from "@/assets/images/mira-thumb.png";
+import prototypeThumb from "@/assets/images/proto-thumb.png";
 </script>
 
 <template>
@@ -19,16 +20,15 @@ import miraThumb from "@/assets/images/mira-thumb.png";
             </p>
         </div>
         <div class="mt-20">
-            <projectsSpecific 
-            project-title="Mira Project Study Case"
-            :project-img=miraThumb
-            project-desc="Mira Project is a project that I1 made during my internship at Atrem Project. This project is a study case of the Mira Course website. The website is made using Figma and Miro."
-            :badges="['Figma', 'Miro']"
-            project-links="/Projects/MiraProject"
+            <projectsSpecific
+                project-title="Mira Project Study Case"
+                :project-img="miraThumb"
+                project-desc="Mira Project is a project that I1 made during my internship at Atrem Project. This project is a study case of the Mira Course website. The website is made using Figma and Miro."
+                :badges="['Figma', 'Miro']"
+                project-links="/Projects/MiraProject"
             />
+            <projectsSpecific project-title="Secondary Project" :project-img="prototypeThumb" project-desc="my 24 proto project" />
         </div>
     </section>
-    <landingFooter 
-        titlen="My Projects <br /> End Here"
-    />
+    <landingFooter titlen="My Projects <br /> End Here" />
 </template>

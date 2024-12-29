@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import projectView from "@/views/projectView.vue";
+
 // * Project View
 import miraProjectView from "@/views/projects/miraProjectView.vue";
 import uiProjectView from "@/views/projects/uiProjectView.vue";
@@ -36,15 +37,15 @@ const router = createRouter({
             component: lmsProjectView,
         },
         {
-            path : "/Projects/PackageProject",
-            name : "PackageProject",
-            component : packageProjectView,
+            path: "/Projects/PackageProject",
+            name: "PackageProject",
+            component: packageProjectView,
         },
         {
-            path : "/Projects/ProtoProject",
-            name : "ProtoProject",
-            component : protoProjectView,
-        }
+            path: "/Projects/ProtoProject",
+            name: "ProtoProject",
+            component: protoProjectView,
+        },
     ],
 });
 
