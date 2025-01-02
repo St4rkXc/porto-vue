@@ -2,7 +2,7 @@
 <template>
     <section class="my-container py-[100px]" id="learnings">
         <div class="flex flex-col xl:flex-row xl:items-center justify-between gap-y-4">
-            <p class="section-title max-w-[639px]" data-aos="fade-right" data-aos-duration="1500">Skills & <br> <span class="text-secondary" >Expertise</span></p>
+            <p class="section-title max-w-[639px]" data-aos="fade-right" data-aos-duration="1500">Skills & <br> <span class="text-secondary animate-pulse-slow" >Expertise</span></p>
             <p class="text-lg font-semibold leading-[27px] text-text max-w-[687px]" data-aos="fade-left" data-aos-duration="1500">
                 Di Atrem Project, sistem belajarnya berbasis mentorship. Kami diberikan tugas yang harus diselesaikan secara mandiri, dan jika mengalami kesulitan, kami dapat mendiskusikannya.
             </p>

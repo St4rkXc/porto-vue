@@ -14,5 +14,5 @@ app.mount('#app')
 
 AOS.init({
     once: true,
-    offset: 250,
+    offset: 230,
 })
