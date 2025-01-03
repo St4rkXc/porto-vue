@@ -25,7 +25,7 @@ defineProps({
     <section class="pt-[200px] pb-[100px] my-container" id="company">
         <h2 class="text-center section-title" data-aos="fade" data-aos-duration="1500">
             About <br />
-            <span class="text-secondary">Dhiyo Wikantara</span>
+            <span class="text-secondary animate-pulse-slow">Dhiyo Wikantara</span>
         </h2>
         <div class="flex flex-col lg:flex-row mt-16" data-aos="fade-left" data-aos-duration="1500">
             <!-- Bind active classes dynamically -->

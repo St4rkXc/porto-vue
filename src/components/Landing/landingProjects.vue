@@ -11,7 +11,7 @@ import packageProject from '@/assets/images/package-thumn.png';
     <section class="py-[100px] my-container" id="projects">
         <p class="text-center section-title" data-aos="fade" data-aos-duration="1500" 
             >My Projects & <br />
-            <span class="text-secondary">Works</span></p
+            <span class="text-secondary animate-pulse-slow">Works</span></p
         >
         <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-16 gap-4">
             <div data-aos="fade-up" data-aos-duration="1500">
@@ -63,7 +63,7 @@ import packageProject from '@/assets/images/package-thumn.png';
             </div>
         </div>
         <div class="mt-16 flex items-center justify-center">
-            <RouterLink to="/Projects" class="my-button-primary">
+            <RouterLink to="/Projects" class="my-button-primary" data-aos="fade-up" data-aos-duration="1500">
                 View All Projects
             </RouterLink>
         </div>
