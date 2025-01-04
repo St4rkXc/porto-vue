@@ -23,7 +23,7 @@ defineProps({
 
 <template>
     <RouterLink class="block p-4 duration-300 text-text hover:text-white hover:bg-primary hover:scale-105 group active:scale-95 border border-primary/60" :to="links" >
-        <img :src="projectImg" alt="" />
+        <img :src="projectImg" alt="" class="h-[450px] object-cover object-center w-full" />
         <div class="mt-8 space-y-4">
             <p class="text-2xl font-bold">{{ projectTitle }}</p>
             <div class="flex space-x-2">

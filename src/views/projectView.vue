@@ -27,7 +27,7 @@ const project = [
     <projectNavbar />
     <section class="my-container py-[150px]">
         <div class="max-w-4xl">
-            <h1 class="text-text text-3xl font-bold leading-tight">
+            <h1 class="text-text text-3xl font-bold leading-tight ">
                 See All My Project that <br />
                 I've Done
             </h1>

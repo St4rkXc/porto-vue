@@ -2,10 +2,13 @@
 import { RouterLink } from 'vue-router';
 import projectsCompo from '@/components/Projects/projectsCompo.vue';
 import protoProject from '@/assets/images/proto-thumb.png';
-import uiProject from '@/assets/images/ui-thumb.png';
 import miraProject from '@/assets/images/mira-thumb.png';
 import lmsProject from '@/assets/images/lms-thumb2.png';
 import packageProject from '@/assets/images/package-thumn.png';
+import Foxbat from '@/assets/images/Foxbat.png';
+import Energiya from '@/assets/images/Energiya.png';
+import Paralax from '@/assets/images/Paralax.png';
+
 </script>
 <template>
     <section class="py-[100px] my-container" id="projects">
@@ -13,10 +16,10 @@ import packageProject from '@/assets/images/package-thumn.png';
             >My Projects & <br />
             <span class="text-secondary animate-pulse-slow">Works</span></p
         >
-        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-16 gap-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 mt-16 gap-4">
             <div data-aos="fade-up" data-aos-duration="1500">
                 <projectsCompo
-                    :projectImg=protoProject
+                    :projectImg=Foxbat
                     projectTitle="16 UI Prototyping Project"
                     :badges="['Figma', 'Illustrator']"
                     links="/Projects/ProtoProject"
@@ -24,7 +27,7 @@ import packageProject from '@/assets/images/package-thumn.png';
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                 <projectsCompo
-                    :projectImg=uiProject
+                    :projectImg=Energiya
                     projectTitle="28 UI Projects"
                     :badges="['Figma', 'illustrator']"
                     links="/Projects/UiProject"
@@ -32,7 +35,7 @@ import packageProject from '@/assets/images/package-thumn.png';
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
                 <projectsCompo
-                    :projectImg=miraProject
+                    :projectImg=Paralax
                     projectTitle="Mira Project Study Case"
                     :badges="['Figma', 'Miro']"
                     links="/Projects/MiraProject"
