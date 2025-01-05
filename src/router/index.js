@@ -7,7 +7,7 @@ import miraProjectView from "@/views/projects/miraProjectView.vue";
 import uiProjectView from "@/views/projects/uiProjectView.vue";
 import lmsProjectView from "@/views/projects/lmsProjectView.vue";
 import packageProjectView from "@/views/projects/packageProjectView.vue";
-import protoProjectView from "@/views/projects/protoProjectView.vue";
+import protoProjectView from "@/views/projects/FoxbatProjectView.vue";
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
@@ -42,11 +42,20 @@ const router = createRouter({
             component: packageProjectView,
         },
         {
-            path: "/Projects/ProtoProject",
+            path: "/Projects/Foxbat",
             name: "ProtoProject",
             component: protoProjectView,
         },
     ],
+    scrollBehavior(to, from, savedPosition) {
+        if(savedPosition){
+            return savedPosition
+        }
+        else{
+            return {top: 0}
+        }
+    }
 });
+
 
 export default router;
