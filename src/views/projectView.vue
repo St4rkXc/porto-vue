@@ -2,40 +2,61 @@
 import projectNavbar from "@/components/Navbar/projectNavbar.vue";
 import landingFooter from "@/components/Landing/landingFooter.vue";
 import projectsSpecific from "@/components/Projects/projectsSpecific.vue";
-import miraThumb from "@/assets/images/mira-thumb.png";
-import prototypeThumb from "@/assets/images/proto-thumb.png";
-import Carafao from '@/assets/images/Carafao.png';
-import Foxbat from '@/assets/images/Foxbat.png';
-import Energiya from '@/assets/images/Energiya.png';
-import Paralax from '@/assets/images/Paralax.png';
-
+import Carafao from "@/assets/images/Carafao.png";
+import Foxbat from "@/assets/images/Foxbat.png";
+import Energiya from "@/assets/images/Energiya.png";
+import Paralax from "@/assets/images/Paralax.png";
+import Doclink from "@/assets/images/Doclink.png";
+import Tuung from "@/assets/images/Tuung.png";
+import Lumi from "@/assets/images/Lumi.png";
 
 const project = [
     {
-        title: "Mira Project Study Case",
+        title: "Foxbat - Package Monitoring System",
         img: Foxbat,
-        desc: "Mira Project is a project that I1 made during my internship at Atrem Project. This project is a study case of the Mira Course website. The website is made using Figma and Miro.",
-        badges: ["Figma", "Miro"],
+        desc: "Foxbat is a package monitoring system that helps you track your packages in real-time. It is a web-based application that allows you to track your packages from the comfort of your home.",
+        badges: ["Figma", "Tailwind", "Blade", "DaisyUI"],
         links: "/Projects/MiraProject",
     },
     {
-        title: "Secondary Project",
-        img: Carafao,
-        desc: "my 24 proto project",
-        badges: ["Figma", "Illustrator"],
-        links: "",
-    },
-    {
-        title: "Third Project",
+        title: "Energiya - Green Energy Company",
         img: Energiya,
-        desc: "my 24 proto project",
+        desc: " Energiya is a green energy company that provides sustainable energy solutions to its customers. It is a web-based application that allows you to monitor your energy consumption and reduce your carbon footprint.",
         badges: ["Figma", "Illustrator"],
         links: "",
     },
     {
-        title: "Fourth Project",
+        title: "Carafao - Social Media App",
+        img: Carafao,
+        desc: "Carafao is a social media app that allows you to connect with your friends and family. It is a mobile application that allows you to share photos, videos, and messages with your loved ones.",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    },
+    {
+        title: "Paralax - Crypto Community",
         img: Paralax,
-        desc: "my 24 proto project",
+        desc: "Paralax is a crypto community that allows you to connect with other crypto enthusiasts. It is a web-based application that allows you to share your thoughts and ideas with like-minded individuals.",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    },
+    {
+        title: "Doclink - Doctor Dashboard",
+        img: Doclink,
+        desc: "Doclink is a doctor dashboard that allows you to manage your patients and appointments. It is a web-based application that allows you to keep track of your patients' medical history and schedule appointments with ease.",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    },
+    {
+        title: "Tuung - Garden Monitoring Sytem",
+        img: Tuung,
+        desc: "Tuung is a garden monitoring system that helps you keep track of your plants and garden. A Web App application that allows you to monitor your plants' health and receive notifications when they need water or sunlight.",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    },
+    {
+        title: "Lumi - Electronic Commerce",
+        img: Lumi,
+        desc: "Lumi is an e-commerce platform that allows you to sell your products online. It is a web-based application that allows you to create an online store and manage your inventory with ease.",
         badges: ["Figma", "Illustrator"],
         links: "",
     }
@@ -46,7 +67,7 @@ const project = [
     <projectNavbar />
     <section class="my-container py-[150px]">
         <div class="max-w-4xl">
-            <h1 class="text-text text-3xl font-bold leading-tight ">
+            <h1 class="text-text text-3xl font-bold leading-tight">
                 See All My Project that <br />
                 I've Done
             </h1>
