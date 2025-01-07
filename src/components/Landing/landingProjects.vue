@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import projectsCompo from '@/components/Projects/projectsCompo.vue';
-import lmsProject from '@/assets/images/lms-thumb2.png';
+import Carafao from '@/assets/images/Carafao.png';
 import Foxbat from '@/assets/images/Foxbat.png';
 import Energiya from '@/assets/images/Energiya.png';
 import Paralax from '@/assets/images/Paralax.png';
@@ -18,14 +18,14 @@ import Paralax from '@/assets/images/Paralax.png';
                 <projectsCompo
                     :projectImg=Foxbat
                     projectTitle="Foxbat - Package Monitoring System"
-                    :badges="['Figma', 'Illustrator']"
+                    :badges="['Figma', 'Tailwind', 'Blade', 'DaisyUI']"
                     links="/Projects/Foxbat"
                 />
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                 <projectsCompo
                     :projectImg=Energiya
-                    projectTitle="28 UI Projects"
+                    projectTitle="Energiya - Green Energy Company"
                     :badges="['Figma', 'illustrator']"
                     links="/Projects/UiProject"
                 />
@@ -33,16 +33,16 @@ import Paralax from '@/assets/images/Paralax.png';
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
                 <projectsCompo
                     :projectImg=Paralax
-                    projectTitle="Mira Project Study Case"
+                    projectTitle="Paralax - Crypto Community"
                     :badges="['Figma', 'Miro']"
                     links="/Projects/MiraProject"
                 />
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
                 <projectsCompo
-                    :projectImg=lmsProject
-                    projectTitle="LMS Project (Frontend)"
-                    :badges="['Tailwind', 'Blade', 'DaisyUI']"
+                    :projectImg=Carafao
+                    projectTitle="Carafao - Social Media App"
+                    :badges="['Figma', 'Adobe Photoshop']"
                     links="/Projects/LmsProject"
                 />
             </div>

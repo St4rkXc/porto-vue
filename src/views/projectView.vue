@@ -4,22 +4,41 @@ import landingFooter from "@/components/Landing/landingFooter.vue";
 import projectsSpecific from "@/components/Projects/projectsSpecific.vue";
 import miraThumb from "@/assets/images/mira-thumb.png";
 import prototypeThumb from "@/assets/images/proto-thumb.png";
+import Carafao from '@/assets/images/Carafao.png';
+import Foxbat from '@/assets/images/Foxbat.png';
+import Energiya from '@/assets/images/Energiya.png';
+import Paralax from '@/assets/images/Paralax.png';
+
 
 const project = [
     {
         title: "Mira Project Study Case",
-        img: miraThumb,
+        img: Foxbat,
         desc: "Mira Project is a project that I1 made during my internship at Atrem Project. This project is a study case of the Mira Course website. The website is made using Figma and Miro.",
         badges: ["Figma", "Miro"],
         links: "/Projects/MiraProject",
     },
     {
         title: "Secondary Project",
-        img: prototypeThumb,
+        img: Carafao,
         desc: "my 24 proto project",
         badges: ["Figma", "Illustrator"],
         links: "",
     },
+    {
+        title: "Third Project",
+        img: Energiya,
+        desc: "my 24 proto project",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    },
+    {
+        title: "Fourth Project",
+        img: Paralax,
+        desc: "my 24 proto project",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    }
 ];
 </script>
 
