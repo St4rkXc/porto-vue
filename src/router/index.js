@@ -3,11 +3,11 @@ import HomeView from "@/views/HomeView.vue";
 import projectView from "@/views/projectView.vue";
 
 // * Project View
-import miraProjectView from "@/views/projects/miraProjectView.vue";
-import uiProjectView from "@/views/projects/uiProjectView.vue";
-import lmsProjectView from "@/views/projects/lmsProjectView.vue";
-import packageProjectView from "@/views/projects/packageProjectView.vue";
-import protoProjectView from "@/views/projects/FoxbatProjectView.vue";
+import CarafaoProjectView from "@/views/projects/CarafaoProjectView.vue";
+import TuungProjectView from "@/views/projects/TuungProjectView.vue";
+import EnergiyaProjectView from "@/views/projects/EnergiyaProjectView.vue";
+import DoclinkProjectView from "@/views/projects/DoclinkProjectView.vue";
+import FoxbatProjectView from "@/views/projects/FoxbatProjectView.vue";
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
@@ -22,29 +22,29 @@ const router = createRouter({
             component: projectView,
         },
         {
-            path: "/Projects/MiraProject",
-            name: "MiraProject",
-            component: miraProjectView,
+            path: "/Projects/CarafaoProject",
+            name: "CarafaoProject",
+            component: CarafaoProjectView,
         },
         {
-            path: "/Projects/UiProject",
-            name: "UiProject",
-            component: uiProjectView,
+            path: "/Projects/TuungProject",
+            name: "TuungProject",
+            component: TuungProjectView,
         },
         {
-            path: "/Projects/LmsProject",
-            name: "LmsProject",
-            component: lmsProjectView,
+            path: "/Projects/EnergiyaProject",
+            name: "EnergiyaProject",
+            component: EnergiyaProjectView,
         },
         {
-            path: "/Projects/PackageProject",
-            name: "PackageProject",
-            component: packageProjectView,
+            path: "/Projects/DoclinkProject",
+            name: "DoclinkProject",
+            component: DoclinkProjectView,
         },
         {
-            path: "/Projects/Foxbat",
-            name: "ProtoProject",
-            component: protoProjectView,
+            path: "/Projects/FoxbatProject",
+            name: "FoxbatProject",
+            component: FoxbatProjectView,
         },
     ],
     scrollBehavior(to, from, savedPosition) {

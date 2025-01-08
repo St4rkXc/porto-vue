@@ -9,6 +9,7 @@ import Paralax from "@/assets/images/Paralax.png";
 import Doclink from "@/assets/images/Doclink.png";
 import Tuung from "@/assets/images/Tuung.png";
 import Lumi from "@/assets/images/Lumi.png";
+import Xtrade from "@/assets/images/Xtrade.png";
 
 const project = [
     {
@@ -59,7 +60,14 @@ const project = [
         desc: "Lumi is an e-commerce platform that allows you to sell your products online. It is a web-based application that allows you to create an online store and manage your inventory with ease.",
         badges: ["Figma", "Illustrator"],
         links: "",
-    }
+    },
+    {
+        title: "Xtrade - Stock Trading Platform",
+        img: Xtrade,
+        desc: "Xtrade is a stock trading platform that allows you to buy and sell stocks online. It is a web-based application that allows you to monitor the stock market and make informed decisions about your investments.",
+        badges: ["Figma", "Illustrator"],
+        links: "",
+    },
 ];
 </script>
 
