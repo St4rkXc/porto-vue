@@ -79,7 +79,7 @@ const project = [
                 See All My Project that <br />
                 I've Done
             </h1>
-            <p class="text-text text-lg font-medium mt-4">
+            <p class="text-text text-lg fonthe-medium mt-4">
                 Take a deep dive into my journey of creativity and innovation as you explore a comprehensive showcase of the projects I've completed, each reflecting dedication, skill, and a passion
                 for excellence.
             </p>
