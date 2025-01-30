@@ -1,11 +1,15 @@
-<script setup></script>
+<script setup>
+import star from "@/assets/decoration/star.svg";
+</script>
 <template>
     <section class="my-container py-[100px]" id="learnings">
-        <div class="flex flex-col xl:flex-row xl:items-center justify-between gap-y-4">
+        <div class="flex flex-col xl:flex-row xl:items-center justify-between gap-y-4 relative">
+            <img :src="star" alt="" class="absolute -top-12 right-0 w-12 animate-spin-slow h-12 opacity-60" />
+            <img :src="star" alt="" class="absolute -top-10 -left-20 w-16 animate-spin-slow h-16 opacity-80" />  
             <p class="section-title max-w-[639px]" data-aos="fade-right" data-aos-duration="1500"
                 >Skills & <br />
-                <span class="text-secondary animate-pulse-slow">Expertise</span></p
-            >
+                <span class="text-secondary animate-pulse-slow">Expertise</span>
+            </p>
             <p class="text-[18px] font-medium leading-[27px] text-text max-w-[687px]" data-aos="fade-left" data-aos-duration="1500">
                 Throughout my internship, academic journey, and self-directed practice, I have acquired a diverse set of skills and expertise. Below are some of the key areas where I have developed
                 proficiency.
