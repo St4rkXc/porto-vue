@@ -29,7 +29,7 @@ defineProps({
 
 <template>
     <div class="py-[100px] my-container">
-        <img :src="projectImg" alt="Project Image" class="w-full h-[700px] object-cover " />
+        <img :src="projectImg" alt="Project Image" class="w-full xl:h-[700px] object-cover " />
         <div class="mt-12 px-28">
             <div class="flex justify-between">
                 <div>

@@ -1,8 +1,8 @@
 <script setup></script>
 <template>
     <section class="my-container py-[100px]" id="sideq">
-        <div class="grid xl:grid-cols-2 gap-y-8">
-            <div class="pr-32 space-y-6">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-y-8">
+            <div class="xl:pr-32 space-y-6">
                 <p class="section-title" data-aos="fade-right" data-aos-duration="1500">Experience</p>
                 <p class="text-[18px] font-medium text-text" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
                     Throughout my journey, I have contributed to projects and gained hands-on experience across various domains. These are highlights of my key roles and accomplishments.

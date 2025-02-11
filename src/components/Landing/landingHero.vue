@@ -21,7 +21,7 @@ defineProps({
 <template>
     <header class="relative flex flex-col items-center justify-center w-full min-h-screen">
         <h1 class="text-3xl lg:text-4xl font-bold text-center text-primary leading-tight lg:leading-[100px] flex gap-4" data-aos="fade-down" data-aos-duration="1500" >
-            Dhiyo <img :src="heroslim" class="hover:-rotate-6 hover:scale-105 duration-300" alt="" /> Wikantara
+            Dhiyo <img :src="heroslim" class="hover:-rotate-6 hover:scale-105 duration-300 hidden md:block" alt="" /> Wikantara
         </h1>
         <h2 class="text-secondary text-2xl lg:text-[48px] text-center font-bold" data-aos="fade" data-aos-duration="1500" data-aos-delay="400">{{ subtitle }}</h2>
         <div class="absolute top-[200px] left-[200px] hidden xl:block" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600">

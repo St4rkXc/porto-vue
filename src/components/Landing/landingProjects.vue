@@ -19,7 +19,7 @@ import Paralax from '@/assets/images/Paralax.png';
                     :projectImg=Foxbat
                     projectTitle="Foxbat - Package Monitoring System"
                     :badges="['Figma', 'Tailwind', 'Blade', 'DaisyUI']"
-                    links="/Projects/Foxbat"
+                    links="/Projects/FoxbatProject"
                 />
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
