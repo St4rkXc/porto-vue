@@ -12,7 +12,7 @@
                 <div class="bg-transparent border-b rounded-none collapse border-b-black/50" data-aos="fade-left" data-aos-duration="1500">
                     <input type="radio" class="peer" name="my-accordion-1" checked />
                     <div class="collapse-title peer-checked:text-white text-primary peer-checked:bg-primary">SMK TI Bali Global Denpasar</div>
-                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white">
+                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white pt-4">
                         <strong>Student</strong> • 2023 - 2026 <br />
                         <div class="mt-1">
                             Gained foundational skills in UI/UX design using Figma, creating four user interface designs that enhanced my understanding of user-centered design principles and
@@ -23,7 +23,7 @@
                 <div class="bg-transparent border-b rounded-none collapse border-b-black/50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400">
                     <input type="radio" class="peer" name="my-accordion-1" />
                     <div class="collapse-title peer-checked:text-white text-primary peer-checked:bg-primary">Globaliti Engineering and Development</div>
-                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white">
+                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white pt-4">
                         <strong>Leader</strong> • 2023 - 2025 <br />
                         <div class="mt-1">
                             As the leader, I designed and built robotics projects, led the team in competitions, and developed expertise in hardware integration, problem-solving, and project
@@ -34,7 +34,7 @@
                 <div class="bg-transparent border-b rounded-none collapse border-b-black/50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">
                     <input type="radio" class="peer" name="my-accordion-1" />
                     <div class="collapse-title peer-checked:text-white text-primary peer-checked:bg-primary">SharkByte</div>
-                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white">
+                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white pt-4">
                         <strong>Founder & Team Lead</strong> • 2024 - Current <br />
                         <div class="mt-1">
                             As the founder and team lead, I focus on developing web apps using Vue, Tailwind, and UI/UX design principles. I also lead testing efforts and regularly participate in web
@@ -45,7 +45,7 @@
                 <div class="bg-transparent border-b rounded-none collapse border-b-black/50" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
                     <input type="radio" class="peer" name="my-accordion-1" />
                     <div class="collapse-title peer-checked:text-white text-primary peer-checked:bg-primary">Atrem Project</div>
-                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white">
+                    <div class="collapse-content bg-base-100 peer-checked:bg-primary peer-checked:text-white pt-4">
                         <strong>Internship</strong> • July 2024 - December 2024 <br />
                         <div class="mt-1">
                             During my internship, I worked in both the frontend and UI/UX departments, contributing to over 30+ projects and gaining hands-on experience in web development and

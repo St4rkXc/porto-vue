@@ -27,9 +27,9 @@ defineProps({
 });
 </script>
 <template>
-    <div class="px-12 py-5 border-t border-b border-t-primary border-b-primary group duration-300 hover:bg-primary hover:scale-105">
-        <RouterLink :to="projectLinks" class="flex justify-between items-center text-primary group-hover:text-white ">
-            <div class="space-y-4 w-[40%]">
+    <div class=" px-4 lg:px-12 py-8 lg:py-5 border-t border-b border-t-primary border-b-primary group duration-300 hover:bg-primary hover:scale-105">
+        <RouterLink :to="projectLinks" class="flex flex-col-reverse lg:flex-row justify-between items-center text-primary group-hover:text-white ">
+            <div class="space-y-4 lg:w-[40%]">
                 <p class="text-2xl font-bold">{{ projectTitle }}</p>
                 <p class="text-lg font-medium "
                     >{{ projectDesc }}</p

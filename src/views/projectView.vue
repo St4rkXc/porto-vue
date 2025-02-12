@@ -17,7 +17,7 @@ const project = [
         img: Foxbat,
         desc: "Foxbat is a package monitoring system that helps you track your packages in real-time. It is a web-based application that allows you to track your packages from the comfort of your home.",
         badges: ["Figma", "Tailwind", "Blade", "DaisyUI"],
-        links: "/Projects/MiraProject",
+        links: "/Projects/FoxbatProject",
     },
     {
         title: "Energiya - Green Energy Company",
