@@ -1,15 +1,14 @@
 <script setup>
 import projectDetail from "@/components/Projects/projectDetail.vue";
-import miraImg from "@/assets/images/mirafix.png";
+import Carafao from '@/assets/images/Carafao.png';
 import projectNavbar from "@/components/Navbar/projectNavbar.vue";
-
 </script>
 
 <template>
     <projectNavbar />
     <projectDetail
-        projectTitle="Mira Project Study Case"
-        :projectImg="miraImg"
+        projectTitle="Carafao - Social Media App"
+        :projectImg="Carafao"
         projectDesc="Mira Course adalah sebuah aplikasi e-learning yang dirancang untuk menyediakan berbagai kursus tentang teknologi, dengan fokus pada pengalaman pengguna yang intuitif dan menarik.
                     Proses pengembangan dimulai dengan menentukan tema yang relevan, diikuti dengan identifikasi masalah yang ingin diselesaikan melalui analisis mendalam terhadap kebutuhan pengguna.
                     Data yang terkumpul kemudian disusun menggunakan affinity board untuk mengidentifikasi pola dan tren, yang selanjutnya digunakan untuk membuat User Persona dan User Flow. Dengan

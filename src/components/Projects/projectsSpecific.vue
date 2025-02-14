@@ -29,7 +29,7 @@ defineProps({
 <template>
     <div class=" px-4 lg:px-12 py-8 lg:py-5 border-t border-b border-t-primary border-b-primary group duration-300 hover:bg-primary hover:scale-105">
         <RouterLink :to="projectLinks" class="flex flex-col-reverse lg:flex-row justify-between items-center text-primary group-hover:text-white ">
-            <div class="space-y-4 lg:w-[40%]">
+            <div class="space-y-3 lg:space-y-4 mt-4 lg:mt-0 lg:w-[40%]">
                 <p class="text-2xl font-bold">{{ projectTitle }}</p>
                 <p class="text-lg font-medium "
                     >{{ projectDesc }}</p

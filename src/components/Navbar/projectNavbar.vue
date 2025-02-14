@@ -1,5 +1,11 @@
 <script setup>
 import { RouterLink, useRoute } from "vue-router";
+// import { defineProps } from "vue";
+
+
+const goback = () => {
+    window.history.back();
+};
 
 const isActiveLink = (routePath) => {
     const route = useRoute();
@@ -25,10 +31,10 @@ const isActiveLink = (routePath) => {
     </nav> -->
     <nav class="fixed z-40 my-container navbar">
         <div class="navbar-start border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4"> 
-            <RouterLink class="flex space-x-4 items-center" to="/">
-                <div class="solar-home w-8 h-8"></div>
-                <p class="text-text text-lg font-semibold">Return to Home</p>
-            </RouterLink>
+            <div class="flex md:space-x-4 items-center" @click="goback">
+                <div class="solar-arrow w-8 h-8 md:w-16 md:h-16"></div>
+                <p class="text-text text-lg font-semibold">Go Back</p>
+            </div>
         </div>
         <div class="navbar-center"></div>
         <div class="navbar-end"></div>

@@ -31,7 +31,7 @@ const project = [
         img: Carafao,
         desc: "Carafao is a social media app that allows you to connect with your friends and family. It is a mobile application that allows you to share photos, videos, and messages with your loved ones.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/CarafaoProject",
     },
     {
         title: "Paralax - Crypto Community",
@@ -45,14 +45,14 @@ const project = [
         img: Doclink,
         desc: "Doclink is a doctor dashboard that allows you to manage your patients and appointments. It is a web-based application that allows you to keep track of your patients' medical history and schedule appointments with ease.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/DoclinkProject",
     },
     {
         title: "Tuung - Garden Monitoring Sytem",
         img: Tuung,
         desc: "Tuung is a garden monitoring system that helps you keep track of your plants and garden. A Web App application that allows you to monitor your plants' health and receive notifications when they need water or sunlight.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/TuungProject",
     },
     {
         title: "Lumi - Electronic Commerce",
@@ -72,7 +72,7 @@ const project = [
 </script>
 
 <template>
-    <projectNavbar />
+    <projectNavbar :mainlinks="'/'" />
     <section class="my-container py-[150px]">
         <div class="max-w-4xl">
             <h1 class="text-text text-3xl font-bold leading-tight">

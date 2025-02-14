@@ -43,7 +43,7 @@ import Paralax from '@/assets/images/Paralax.png';
                     :projectImg=Carafao
                     projectTitle="Carafao - Social Media App"
                     :badges="['Figma', 'Adobe Photoshop']"
-                    links="/Projects/LmsProject"
+                    links="/Projects/CarafaoProject"
                 />
             </div>
             <!-- <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">

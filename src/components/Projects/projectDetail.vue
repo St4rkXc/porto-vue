@@ -30,10 +30,10 @@ defineProps({
 <template>
     <div class="py-[100px] my-container">
         <img :src="projectImg" alt="Project Image" class="w-full xl:h-[700px] object-cover " />
-        <div class="mt-12 px-28">
+        <div class="mt-12 md:px-8 lg:px-28">
             <div class="flex justify-between">
-                <div>
-                    <p class="text-3xl font-bold text-text">{{ projectTitle }}</p>
+                <div class="space-y-3 md:space-y-0">
+                    <p class="text-2xl md:text-3xl font-bold text-text">{{ projectTitle }}</p>
                     <div class="flex space-x-3">
                         <div v-for="(badge, index) in badges" :key="index" class="duration-200 my-badge group-hover:bg-white group-hover:text-text">
                             {{ badge }}
