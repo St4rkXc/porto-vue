@@ -34,7 +34,7 @@ This portfolio website serves as a showcase of my work, including various projec
 Feel free to reach out to me:
 
 - **Email**: dhiyolawe@gmail.com 📧
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/dhiyo-wikantara-3172672ab/) 🔗
-- **GitHub**: [Your GitHub Profile](https://github.com/St4rkXc) 🐱‍💻
+- **LinkedIn**: [Dhiyo Wikantara](https://www.linkedin.com/in/dhiyo-wikantara-3172672ab/) 🔗
+- **GitHub**: [St4rkxc](https://github.com/St4rkXc) 🐱‍💻
 
 Thank you for visiting my portfolio! I look forward to connecting with you. 🤝
