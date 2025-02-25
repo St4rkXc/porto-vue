@@ -37,13 +37,19 @@ const isActiveLink = (routePath) => {
                     <p class="text-text text-lg font-semibold">Go Back</p>
                 </div>
             </div>
-            <div class="border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4">
+            <div class="hidden sm:block border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4">
                 <RouterLink class="flex items-center cursor-pointer" to="/">
                     <div class="solar-home w-8 h-8 md:w-12 md:h-12 text-primary"></div>
                 </RouterLink>
             </div>
         </div>
         <div class="navbar-center"></div>
-        <div class="navbar-end"></div>
+        <div class="navbar-end">
+            <div class=" sm:hidden border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4">
+                <RouterLink class="flex items-center cursor-pointer" to="/">
+                    <div class="solar-home w-8 h-8 md:w-12 md:h-12 text-primary"></div>
+                </RouterLink>
+            </div>
+        </div>
     </nav>
 </template>
