@@ -1,3 +1,32 @@
+
+/**
+ * This Vue component represents the hero section of the landing page.
+ * 
+ * Props:
+ * - title: String (default: "Praktek Kerja Lapangan")
+ * - subtitle: String (default: "Atrem Project")
+ * 
+ * Assets:
+ * - heroslim: Image of the hero character.
+ * - effectRight: Right side decorative effect image.
+ * - effectLeft: Left side decorative effect image.
+ * - star: Star SVG used for decorative spinning stars.
+ * 
+ * External Libraries:
+ * - FontAwesomeIcon: Used for displaying FontAwesome icons.
+ * 
+ * Template Structure:
+ * - Header: Main container with flex layout, centered content, and full-screen height.
+ * - h1: Main title with hero image.
+ * - h2: Subtitle text.
+ * - Decorative Stars: Positioned absolutely with animations.
+ * - Decorative Effects: Positioned absolutely on the left and right sides.
+ * - Social Media Icons: Links to Instagram, GitHub, and LinkedIn profiles.
+ * 
+ * Animations:
+ * - Uses AOS (Animate On Scroll) library for fade and spin animations.
+ * - Custom CSS classes for hover effects and animations.
+ */
 <script setup>
 import { defineProps } from "vue";
 import heroslim from "@/assets/images/heroslim.png";
