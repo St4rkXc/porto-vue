@@ -30,10 +30,17 @@ const isActiveLink = (routePath) => {
         <div class="navbar-end"></div>
     </nav> -->
     <nav class="fixed z-40 my-container navbar">
-        <div class="navbar-start border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4"> 
-            <div class="flex items-center cursor-pointer" @click="goback">
-                <div class="solar-arrow w-8 h-8 md:w-12 md:h-12"></div>
-                <p class="text-text text-lg font-semibold">Go Back</p>
+        <div class="navbar-start space-x-4 "> 
+            <div class="border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4">
+                <div class="flex items-center cursor-pointer" @click="goback">
+                    <div class="solar-arrow w-8 h-8 md:w-12 md:h-12"></div>
+                    <p class="text-text text-lg font-semibold">Go Back</p>
+                </div>
+            </div>
+            <div class="border backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/20 p-4">
+                <RouterLink class="flex items-center cursor-pointer" to="/">
+                    <div class="solar-home w-8 h-8 md:w-12 md:h-12 text-primary"></div>
+                </RouterLink>
             </div>
         </div>
         <div class="navbar-center"></div>
