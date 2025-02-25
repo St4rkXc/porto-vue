@@ -27,7 +27,7 @@ import Paralax from '@/assets/images/Paralax.png';
                     :projectImg=Energiya
                     projectTitle="Energiya - Green Energy Company"
                     :badges="['Figma', 'illustrator']"
-                    links="/Projects/UiProject"
+                    links="/Projects/EnergiyaProject"
                 />
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
@@ -35,7 +35,7 @@ import Paralax from '@/assets/images/Paralax.png';
                     :projectImg=Paralax
                     projectTitle="Paralax - Crypto Community"
                     :badges="['Figma', 'Miro']"
-                    links="/Projects/MiraProject"
+                    links="/Projects/ParalaxProject"
                 />
             </div>
             <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">

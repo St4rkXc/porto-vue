@@ -23,7 +23,7 @@ import star from "@/assets/decoration/star.svg";
                         <div class="text-xl font-bold text-center">User Experience Design</div>
                         <p class="text-lg font-semibold  opacity-80">UX Testing & UX Research</p>
                     </div>
-                    <p class="text-[18px] font-medium">
+                <p class="text-[18px] font-medium">
                         I specialize in UX testing, from recruiting respondents to analyzing feedback. I also create animations and user flows in Figma to improve the UX testing process.
                     </p>
                 </div>

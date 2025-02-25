@@ -8,6 +8,9 @@ import TuungProjectView from "@/views/projects/TuungProjectView.vue";
 import EnergiyaProjectView from "@/views/projects/EnergiyaProjectView.vue";
 import DoclinkProjectView from "@/views/projects/DoclinkProjectView.vue";
 import FoxbatProjectView from "@/views/projects/FoxbatProjectView.vue";
+import ParalaxProjectViewVue from "@/views/projects/ParalaxProjectView.vue";
+import LumiProjectViewVue from "@/views/projects/LumiProjectView.vue";
+import XtradeProjectViewVue from "@/views/projects/XtradeProjectView.vue";
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
@@ -46,6 +49,21 @@ const router = createRouter({
             name: "FoxbatProject",
             component: FoxbatProjectView,
         },
+        {
+            path:"/Projects/ParalaxProject",
+            name:"ParalaxProject",
+            component: ParalaxProjectViewVue,
+        },
+        {
+            path : "/Projects/LumiProject",
+            name : "LumiProject",
+            component : LumiProjectViewVue,
+        },
+        {
+            path: "/Projects/XtradeProject",
+            name: "XtradeProject",
+            component: XtradeProjectViewVue,
+        }
     ],
     scrollBehavior(to, from, savedPosition) {
         if(savedPosition){

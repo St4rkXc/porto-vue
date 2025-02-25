@@ -24,7 +24,7 @@ const project = [
         img: Energiya,
         desc: " Energiya is a green energy company that provides sustainable energy solutions to its customers. It is a web-based application that allows you to monitor your energy consumption and reduce your carbon footprint.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/EnergiyaProject",
     },
     {
         title: "Carafao - Social Media App",
@@ -38,7 +38,7 @@ const project = [
         img: Paralax,
         desc: "Paralax is a crypto community that allows you to connect with other crypto enthusiasts. It is a web-based application that allows you to share your thoughts and ideas with like-minded individuals.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/ParalaxProject",
     },
     {
         title: "Doclink - Doctor Dashboard",
@@ -59,14 +59,14 @@ const project = [
         img: Lumi,
         desc: "Lumi is an e-commerce platform that allows you to sell your products online. It is a web-based application that allows you to create an online store and manage your inventory with ease.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/LumiProject",
     },
     {
         title: "Xtrade - Stock Trading Platform",
         img: Xtrade,
         desc: "Xtrade is a stock trading platform that allows you to buy and sell stocks online. It is a web-based application that allows you to monitor the stock market and make informed decisions about your investments.",
         badges: ["Figma", "Illustrator"],
-        links: "",
+        links: "/Projects/XtradeProject",
     },
 ];
 </script>

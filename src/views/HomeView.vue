@@ -1,8 +1,7 @@
 <script setup>
 import landingNavbar from "@/components/Navbar/landingNavbar.vue";
 import landingHero from "@/components/Landing/landingHero.vue";
-import landingAbout from "@/components/Landing/landingAbout.vue";
-import LandingAbout2 from "@/components/Landing/LandingAbout2.vue";
+// import LandingAbout2 from "@/components/Landing/LandingAbout2.vue";
 import landingSkills from "@/components/Landing/landingSkills.vue";
 import LandingExperience from "@/components/Landing/landingExperience.vue";
 import landingProjects from "@/components/Landing/landingProjects.vue";
@@ -12,7 +11,7 @@ import LandingAbout from "@/components/Landing/landingAbout.vue";
 <template>
     <landingNavbar />
     <landingHero title="Dhiyo (Stark) Wikantara" subtitle="UI/UX Engineer & Frontend Developer " />
-    <LandingAbout/>
+    <LandingAbout />
     <landingSkills />
     <LandingExperience />
     <landingProjects />
