@@ -1,3 +1,27 @@
+<!--
+
+This Vue component represents a responsive navigation bar for a landing page. 
+It includes the following sections:
+
+1. **Navbar Start**: An empty div for potential future content.
+2. **Navbar Center**: 
+    - For large screens (lg and above), it displays navigation links (Profile, Skills, Experience, Project) in a horizontal layout.
+    - For smaller screens, it hides the links and shows a dropdown menu button instead.
+3. **Navbar End**: 
+    - Contains a dropdown menu for smaller screens with the same navigation links as the large screen layout.
+
+Classes used:
+- `fixed z-40 my-container navbar`: Positions the navbar at the top with a high z-index.
+- `border navbar-center backdrop-blur-lg rounded-3xl w-fit bg-base-100/50 border-primary/30`: Styles for the navbar center section.
+- `hidden lg:block`: Shows the center section only on large screens.
+- `block lg:hidden`: Shows the dropdown menu button only on smaller screens.
+- `dropdown dropdown-end`: Styles for the dropdown menu.
+- `btn btn-ghost`: Styles for the dropdown button.
+- `menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-4`: Styles for the dropdown menu content.
+
+SVG Icon:
+- Represents a hamburger menu icon for the dropdown button.
+-->
 <script setup></script>
 
 <template>
