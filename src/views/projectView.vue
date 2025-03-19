@@ -30,7 +30,7 @@ const project = [
         title: "Carafao - Social Media App",
         img: Carafao,
         desc: "Carafao is a social media app that allows you to connect with your friends and family. It is a mobile application that allows you to share photos, videos, and messages with your loved ones.",
-        badges: ["Figma", "Illustrator"],
+        badges: ["Figma", "Photoshop"],
         links: "/Projects/CarafaoProject",
     },
     {
@@ -44,21 +44,21 @@ const project = [
         title: "Doclink - Doctor Dashboard",
         img: Doclink,
         desc: "Doclink is a doctor dashboard that allows you to manage your patients and appointments. It is a web-based application that allows you to keep track of your patients' medical history and schedule appointments with ease.",
-        badges: ["Figma", "Illustrator"],
+        badges: ["Figma"],
         links: "/Projects/DoclinkProject",
     },
     {
         title: "Tuung - Garden Monitoring Sytem",
         img: Tuung,
         desc: "Tuung is a garden monitoring system that helps you keep track of your plants and garden. A Web App application that allows you to monitor your plants' health and receive notifications when they need water or sunlight.",
-        badges: ["Figma", "Illustrator"],
+        badges: ["Figma", "Spline"],
         links: "/Projects/TuungProject",
     },
     {
         title: "Lumi - Electronic Commerce",
         img: Lumi,
         desc: "Lumi is an e-commerce platform that allows you to sell your products online. It is a web-based application that allows you to create an online store and manage your inventory with ease.",
-        badges: ["Figma", "Illustrator"],
+        badges: ["Figma", "Photoshop"],
         links: "/Projects/LumiProject",
     },
     {

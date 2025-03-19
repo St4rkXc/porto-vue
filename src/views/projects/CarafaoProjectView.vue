@@ -16,6 +16,6 @@ import projectNavbar from "@/components/Navbar/projectNavbar.vue";
                     untuk menciptakan tampilan yang menarik dan sesuai dengan identitas merek. Prototipe interaktif kemudian dibuat untuk memungkinkan pengguna berinteraksi dengan desain, diikuti
                     dengan tahap pengujian untuk mendapatkan umpan balik yang berharga. Proses iteratif ini memastikan bahwa Mira Course tidak hanya memenuhi kebutuhan pengguna, tetapi juga memberikan
                     pengalaman belajar yang menyenangkan dan efektif dalam dunia teknologi."
-        :badges="['Figma', 'Miro']"
+        :badges="['Figma', 'Photoshop']"
     />
 </template>

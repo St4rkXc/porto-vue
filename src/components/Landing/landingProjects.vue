@@ -34,7 +34,7 @@ import Paralax from '@/assets/images/Paralax.png';
                 <projectsCompo
                     :projectImg=Paralax
                     projectTitle="Paralax - Crypto Community"
-                    :badges="['Figma', 'Miro']"
+                    :badges="['Figma', 'Illustrator']"
                     links="/Projects/ParalaxProject"
                 />
             </div>
@@ -42,7 +42,7 @@ import Paralax from '@/assets/images/Paralax.png';
                 <projectsCompo
                     :projectImg=Carafao
                     projectTitle="Carafao - Social Media App"
-                    :badges="['Figma', 'Adobe Photoshop']"
+                    :badges="['Figma', 'Photoshop']"
                     links="/Projects/CarafaoProject"
                 />
             </div>
