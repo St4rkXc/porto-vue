@@ -45,7 +45,7 @@ defineProps({
                 <a v-if="projectLinks" :href="projectLinks" target="_blank" class="block text-2xl font-bold text-text"> Project Link </a>
                 <p v-else class="text-2xl font-bold text-gray-500"> No link available </p>
             </div>
-            <div class="mt-10 text-lg font-medium text-justify text-text" v-html="projectDesc">
+            <div class="mt-10 text-base md:text-lg font-medium text-justify text-text" v-html="projectDesc">
             </div>
         </div>
     </div>

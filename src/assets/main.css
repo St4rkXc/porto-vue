@@ -28,7 +28,7 @@
         @apply text-[18px] leading-[27px] font-normal;
     }
     .my-badge {
-        @apply text-base font-semibold text-white p-[10px] bg-primary rounded-none;
+        @apply text-[14px] sm:text-base font-semibold text-white p-[10px] bg-primary rounded-none;
     }
     .devider-horizon {
         @apply w-[100px] h-[1px] bg-primary/40;
